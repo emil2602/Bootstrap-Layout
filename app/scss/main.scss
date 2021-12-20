@@ -1,0 +1,49 @@
+@import './core';
+@import './variables';
+@import './fonts';
+
+nav,
+.navigation,
+.card {
+	background-color: $primary-color;
+	color: #fff;
+}
+
+.nav-link,
+h1,
+h2 {
+	font-family: 'ComicFont';
+}
+
+h1,
+h2 {
+	color: $title-color;
+}
+
+.cards {
+	border-bottom: 2px dotted black;
+}
+
+.card {
+	min-height: 15rem;
+}
+
+.dropdown-menu {
+	background-color: $primary-color;
+
+	:hover {
+		background-color: $link-hover-color;
+	}
+}
+
+.nav-link:hover {
+	background-color: $link-hover-color;
+	border-radius: 2px;
+	padding-left: 7px;
+	transition: padding-left 0.5s ease;
+}
+
+i {
+	font-size: 32px;
+	color: #fff;
+}
